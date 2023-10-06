@@ -1,0 +1,27 @@
+:root {
+    --black      : #040404;
+    --lightblack : #141414;
+    --darkgray   : #242424;
+    --lightgray  : #646464;
+    --darkwhite  : #a4a4a4;
+    --white      : #e4e4e4;
+
+    --muteblue   : #a4b4d4;
+    --mutegreen  : #84b4a4;
+    --muteyellow : #d4c484;
+    --mutered    : #e48484;
+
+
+    /* rgb triplets */
+    --black-triplet      : 004, 004, 004;
+    --lightblack-triplet : 020, 020, 020;
+    --darkgray-triplet   : 036, 036, 036;
+    --lightgray-triplet  : 100, 100, 100;
+    --darkwhite-triplet  : 164, 164, 164;
+    --white-triplet      : 228, 228, 228;
+
+    --muteblue-triplet   : 164, 180, 212;
+    --mutegreen-triplet  : 132, 180, 164;
+    --muteyellow-triplet : 212, 196, 132;
+    --mutered-triplet    : 228, 132, 132;
+}

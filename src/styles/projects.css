@@ -1,0 +1,67 @@
+#projects {
+    flex-direction: column;
+
+    h1 {
+        margin-bottom: 4rem;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow: hidden;
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            width: 15rem;
+            padding: 2rem;
+            margin: 10px;
+            margin: 2rem;
+            border-radius: 0.5rem;
+            background: rgba(var(--lightgray-triplet), 0.2);
+            text-align: center;
+        }
+
+        .emoji {
+            font-size: 3em;
+        }
+
+        h2 {
+            font-size: 1.1em;
+            text-decoration: none;
+        }
+
+        .description {
+            text-align: start;
+        }
+
+        button.show-all {
+            padding: 1rem 3rem;
+            width: 12rem;
+            font-size: inherit;
+            margin: 3rem auto;
+            color: inherit;
+            cursor: pointer;
+            border: none;
+
+            border-radius: 0.5rem;
+            background: rgba(var(--lightgray-triplet), 0.2);
+            transition:
+                background 0.2s ease;
+            text-align: center;
+        }
+
+        button.show-all:hover {
+            background: rgba(var(--lightgray-triplet), 0.4);
+        }
+    }
+}

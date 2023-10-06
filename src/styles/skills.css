@@ -1,0 +1,53 @@
+#skills {
+    h2 {
+        font-size: 1.1em;
+    }
+
+    ul {
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style: none;
+
+        li {
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+            width: 25%;
+            height: auto;
+            filter: brightness(0) invert(1);
+
+            * {
+                padding: 2rem 0;
+            }
+
+            p {
+                display: flex;
+                font-size: 0.9em;
+                padding: 1rem;
+                margin: 1rem;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 60%;
+                height: 10rem;
+                border-radius: 0.5rem;
+                background: rgba(var(--lightgray-triplet), 0.1);
+            }
+        }
+    }
+
+    hr {
+        color: var(--darkwhite);
+    }
+}
+
+@media (max-width: 100vh) {
+    #skills {
+        #theory {
+            display: none;
+        }
+    }
+}

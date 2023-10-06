@@ -1,0 +1,38 @@
+#about {
+    .greeting {
+        display: flex;
+
+        .wave {
+            z-index: 0;
+            display: inline-block;
+            padding: 0 0.5em 0 0.5em;
+
+            -webkit-animation-duration: 1.25s;
+            animation-duration: 1.25s;
+
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+
+            -webkit-animation-name: wave-animation;
+            animation-name: wave-animation;
+
+            -webkit-transform-origin: 70% 70%;
+            transform-origin: 70% 70%;
+        }
+    }
+}
+
+@keyframes wave-animation {
+    50% {
+        transform: rotate(0deg);
+    }
+    60% {
+        transform: rotate(8deg);
+    }
+    80% {
+        transform: rotate(-4deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
